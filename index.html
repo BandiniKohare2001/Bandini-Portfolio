@@ -1,11 +1,382 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <title>Portfolio</title>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
+
 <body>
-    
+
+  <!-- navbar starts -->
+  <header>
+    <a href="/" class="logo"></i> Bandini</a>
+
+    <div id="menu" class="fas fa-bars"></div>
+    <nav class="navbar">
+      <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+
+  <!-- home section starts -->
+  <section class="home" id="home">
+    <div id="particles-js"></div>
+
+    <div class="content">
+      <h2>Hi There,<br /> I'm Bandini <span>Kohare</span></h2>
+      <p>i am into <span class="typing-text"></span></p>
+      <a href="#about" class="btn"><span>About Me</span>
+        <i class="fas fa-arrow-circle-down"></i>
+      </a>
+      <div class="socials">
+        <ul class="social-icons">
+          <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/BandiniKohare2001/"
+              target="_blank"><i class="fab fa-linkedin"></i></a></li>
+          <li><a class="github" aria-label="GitHub" href="https://github.com/BandiniKohare2001" target="_blank"><i
+                class="fab fa-github"></i></a></li>
+          <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/tinu20012021"><i
+                class="fab fa-instagram" target="_blank"></i></a></li>
+          <li><a class="dev" aria-label="facebook" href="#" target="_blank"><i class="fab fa-facebook"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="image">
+      <img draggable="false" class="tilt" src="./images/Bandini.jpg" alt="">
+    </div>
+  </section>
+
+
+
+  <!-- about section starts -->
+  <section class="about" id="about">
+    <br><br>
+    <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+
+    <div class="row">
+      <div class="content">
+        <h3>I'm Bandini Kohare</h3>
+        <span class="tag">Full Stack Developer</span>
+
+        <p>I am a Full-Stack developer.
+          I am CSE undergraduate Student.
+          I am very passionate about improving my coding skills & developing applications & websites.
+          I build Websites using HTML, CSS, JS, React.
+          Working for myself to improve my skills.
+          Love to build Websites </p>
+
+        <div class="box-container">
+
+          <div class="box">
+            <p><span> email : </span> bandinikohare16@gmail.com</p>
+            <p><span> place : </span> Ballarpur, India - 442701</p>
+          </div>
+        </div>
+
+        <div class="resumebtn">
+          <a href="CV-Bandini.pdf" target="_blank" class="btn"><span>Resume</span>
+            <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- skills section starts -->
+  <section class="skills" id="skills">
+
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills</h2>
+    <br>
+    <div class="main-skill-container">
+      <div class="skill-box">
+        <img class="skill-img" src="https://img.icons8.com/color/48/000000/html-5--v1.png" alt="">
+        <span class="skil-hea">HTML 5</span>
+      </div>
+      <div class="skill-box">
+        <img class="skill-img" src="https://img.icons8.com/color/48/000000/css3.png" alt="">
+        <span class="skil-hea">CSS</span>
+      </div>
+      <div class="skill-box">
+        <img class="skill-img" src="https://img.icons8.com/color/48/000000/javascript--v1.png" alt="">
+        <span class="skil-hea">JavaScript</span>
+      </div>
+      <div class="skill-box">
+        <img class="skill-img"
+          src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png"
+          alt="">
+        <span class="skil-hea">ReactJS</span>
+      </div>
+      <div class="skill-box">
+        <img class="skill-img" src="https://img.icons8.com/color/48/000000/nodejs.png" alt="">
+        <span class="skil-hea">NodeJS</span>
+      </div>
+      <div class="skill-box">
+        <img class="skill-img" src="https://img.icons8.com/color/48/000000/mongodb.png" alt="">
+        <span class="skil-hea">MongoDB</span>
+      </div>
+    </div><br><br>
+
+    <div class="main-skill-container">
+      <div class="skill-box">
+        <img class="skill-img" src="https://img.icons8.com/fluency/48/000000/node-js.png" alt="">
+        <span class="skil-hea">ExpressJS</span>
+      </div>
+      <div class="skill-box">
+        <img class="skill-img" src="https://img.icons8.com/color/48/000000/bootstrap.png" alt="">
+        <span class="skil-hea">Bootstrap</span>
+      </div>
+      <div class="skill-box">
+        <img class="skill-img" src="https://img.icons8.com/fluency/48/000000/android-os.png" alt="">
+        <span class="skil-hea">Android</span>
+      </div>
+      <div class="skill-box">
+        <img class="skill-img" src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png" alt="">
+        <span class="skil-hea">Jvaa</span>
+      </div>
+      <div class="skill-box">
+        <img class="skill-img" src="https://img.icons8.com/offices/48/000000/php-logo.png" alt="">
+        <span class="skil-hea">php</span>
+      </div>
+      <div class="skill-box">
+        <img class="skill-img" src="https://img.icons8.com/color/48/000000/python--v1.png" alt="">
+        <span class="skil-hea">Python</span>
+      </div>
+    </div>
+    <br><br>
+    <div class="main-skill-container">
+      <div class="skill-box">
+        <img class="skill-img" src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png" alt="">
+        <span class="skil-hea">C++</span>
+      </div>
+      <div class="skill-box">
+        <img class="skill-img" src="https://img.icons8.com/color/48/000000/mysql-logo.png" alt="">
+        <span class="skil-hea">MySql</span>
+      </div>
+      <div class="skill-box">
+        <img class="skill-img"
+          src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png"
+          alt="">
+        <span class="skil-hea">Netlify</span>
+      </div>
+      <div class="skill-box">
+        <img class="skill-img" src="https://img.icons8.com/color/48/000000/git.png" alt="">
+        <span class="skil-hea">Git</span>
+      </div>
+      <div class="skill-box">
+        <img class="skill-img" src="https://img.icons8.com/glyph-neue/48/github.png" alt="">
+        <span class="skil-hea">Github</span>
+      </div>
+      <div class="skill-box">
+        <img style="height:70px; padding: 2px;"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/48px-Tailwind_CSS_Logo.png"
+          alt="">
+        <span class="skil-hea">Tailwind</span>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- education section starts -->
+  <section class="education" id="education">
+    <br><br><br><br>
+    <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
+
+    <p class="qoute">Education is not the learning of facts, but the training of the mind to think.</p>
+
+    <div class="box-container">
+      <br><br>
+      <div class="box">
+        <div class="image">
+          <img draggable="false" src="./images/educat/tgpcet.jpeg" alt="">
+        </div>
+        <div class="content">
+          <h3>B.Tech | Computer Science and Engineering</h3>
+          <p>Tulsiramji Gaikwad Patil College of Engineering and Technology Ngpur</p>
+          <p>Rashtrasant Tukadoji Maharaj Nagpur University (RTMNU)</p>
+          <h4>2021-2024 | Pursuing</h4>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img draggable="false"
+            src="https://static.zollege.in/public/college_data/images/campusimage/1470640645bit%209.png?tr=h-313,w-700,c-force"
+            alt="">
+        </div>
+        <div class="content">
+          <h3>Poly | Computer Science </h3>
+          <p>Ballarpur Institute of Technology</p>
+          <p> Maharashtra State Board of Technical Education (MSBTE)</p>
+          <h4>2018-2021 | Pursuing</h4>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img draggable="false" src="./images/educat/ssc.jpeg" alt="">
+        </div>
+        <div class="content">
+          <h3>SSC</h3>
+          <p>Shanti Niketan Vidyalay Manora</p>
+          <h4>2016-2017 | Completed</h4>
+        </div>
+      </div>
+
+    </div><br><br><br><br><br><br>
+  </section>
+
+  <!-- education section ends -->
+
+
+  <!-- work project section starts -->
+  <!-- <section class="work" id="work">
+
+  <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
+
+  <div class="box-container">
+
+</div>
+
+<div class="viewall">
+  <a href="/projects" class="btn"><span>View All</span>
+    <i class="fas fa-arrow-right"></i>
+</a>
+</div> -->
+
+  <!-- contact section starts -->
+  <section class="contact" id="contact">
+
+    <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
+
+    <div class="container">
+      <div class="content">
+        <div class="image-box">
+          <img draggable="false" src="./images/contact1.png" alt="">
+        </div>
+        <form id="contact-form">
+
+          <div class="form-group">
+            <div class="field">
+              <input type="text" name="name" placeholder="Name" required>
+              <i class='fas fa-user'></i>
+            </div>
+            <div class="field">
+              <input type="text" name="email" placeholder="Email" required>
+              <i class='fas fa-envelope'></i>
+            </div>
+            <div class="field">
+              <input type="text" name="phone" placeholder="Phone">
+              <i class='fas fa-phone-alt'></i>
+            </div>
+            <div class="message">
+              <textarea placeholder="Message" name="message" required></textarea>
+              <i class="fas fa-comment-dots"></i>
+            </div>
+          </div>
+          <div class="button-area">
+            <button type="submit">
+              Submit <i class="fa fa-paper-plane"></i></button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- contact section ends -->
+
+
+  <!-- footer section starts -->
+  <section class="footer">
+
+    <div class="box-container">
+
+      <div class="box">
+        <h3>Bandini's Portfolio</h3>
+        <p>Thank you for visiting my personal portfolio website. Connect with me over socials. </p>
+      </div>
+
+      <div class="box">
+        <h3>quick links</h3>
+        <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+        <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+        <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
+        <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
+        <a href="#work"><i class="fas fa-chevron-circle-right"></i> work</a>
+        <a href="#experience"><i class="fas fa-chevron-circle-right"></i> experience</a>
+      </div>
+
+      <div class="box">
+        <h3>contact info</h3>
+        <p> <i class="fas fa-phone"></i>+91 8459562384</p>
+        <p> <i class="fas fa-envelope"></i>bandinikohare16@gmail.com</p>
+        <p> <i class="fas fa-map-marked-alt"></i>Ballarpur, 442701</p></div></div>
+
+        <div class="box-container-2">
+        <div class="box"> 
+        <div class="share">
+        
+          <p class="social-links">
+            <a href="https://www.linkedin.com/in/BandiniKohare2001" class="fab fa-linkedin" aria-label="LinkedIn"
+              target="_blank"></a>
+            <a href="https://github.com/BandiniKohare2001" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
+            <a href="mailto:bandinikohare16@gmail.com" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
+            <a href="#" class="fab fa-telegram-plane" aria-label="Telegram" target="_blank"></a>
+            <a href="#" class="fab fa-instagram" aria-label="Instagram" target="_blank"></a>
+            <a href="#" class="fab fa-facebook" aria-label="Facebook" target="_blank"></a>
+            <a href="#" class="fab fa-youtube" aria-label="Facebook" target="_blank"></a>
+          </p>
+        </div>
+        </div></div>
+     
+
+    <h1 class="credit">Designed by Bandini Kohare</a></h1>
+
+  </section>
+  <!-- footer section ends -->
+
+  <!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+  <!-- jquery cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- typed.js cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"
+    integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- particle.js links -->
+
+  <script src="./js/app.js"></script>
+
+  <!-- vanilla tilt.js links -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"
+    integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+  <!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
+
+  <script src="./js/script.js"></script>
+
 </body>
+
 </html>
