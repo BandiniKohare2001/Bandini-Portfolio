@@ -1,7 +1,7 @@
 # Portfolio
 
 **Homepage**
-<img src="./images/output-home.png" /><br />
+<img src="./images/output-home.png"/><br />
 
 
 ## Description
