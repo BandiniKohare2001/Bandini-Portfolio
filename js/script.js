@@ -10,7 +10,7 @@
 
 // <!-- typed js effect starts -->
 const typed = new Typed(".typing-text", {
-    strings: ["frontend development", "web designing", "android development", "web development"],
+    strings: ["frontend development", "web designing", "web development"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
